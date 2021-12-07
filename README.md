@@ -17,5 +17,21 @@ The EfficientNet family of networks (B0, B1, ..., B7), introduced by Mingxing Ta
 Link to paper: https://arxiv.org/pdf/1905.11946.pdf
 
 ## Libraries and Version
+
+- Python (3.9)
 - Tensorflow (2.5.1)
 - Keras (2.5.0)
+- Tensorflow add-ons (0.14.0)
+
+You can install these libraries using pip
+
+ - pip install tensorflow==2.5.1 for CPU-only
+ - pip install tensorflow-gpu==2.5.1 for systems with GPU support (Ubuntu and Windows)
+ - pip install keras
+ - pip install tensorflow-addons
+  
+  To use addons:
+  
+    import tensorflow as tf
+    
+    import tensorflow_addons as tfa
